@@ -357,6 +357,23 @@
 		4CFB030E1D7D2FA20056F249 /* utf8_string.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB02F41D7D2FA20056F249 /* utf8_string.txt */; };
 		4CFB030F1D7D2FA20056F249 /* utf8_string.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB02F41D7D2FA20056F249 /* utf8_string.txt */; };
 		8035DB621BAB492500466CB3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8111E3319A95C8B0040E7D1 /* Alamofire.framework */; };
+		E55E66DE2BD0ACA500AB4793 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66CD2BD0ACA500AB4793 /* TaskDelegate.swift */; };
+		E55E66DF2BD0ACA500AB4793 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66CE2BD0ACA500AB4793 /* SessionManager.swift */; };
+		E55E66E02BD0ACA500AB4793 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66CF2BD0ACA500AB4793 /* AFError.swift */; };
+		E55E66E12BD0ACA500AB4793 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D02BD0ACA500AB4793 /* NetworkReachabilityManager.swift */; };
+		E55E66E22BD0ACA500AB4793 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D12BD0ACA500AB4793 /* Validation.swift */; };
+		E55E66E32BD0ACA500AB4793 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D22BD0ACA500AB4793 /* MultipartFormData.swift */; };
+		E55E66E42BD0ACA500AB4793 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D32BD0ACA500AB4793 /* ParameterEncoding.swift */; };
+		E55E66E52BD0ACA500AB4793 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D42BD0ACA500AB4793 /* Request.swift */; };
+		E55E66E62BD0ACA500AB4793 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D52BD0ACA500AB4793 /* Response.swift */; };
+		E55E66E72BD0ACA500AB4793 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D62BD0ACA500AB4793 /* Timeline.swift */; };
+		E55E66E82BD0ACA500AB4793 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D72BD0ACA500AB4793 /* Result.swift */; };
+		E55E66E92BD0ACA500AB4793 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D82BD0ACA500AB4793 /* Alamofire.swift */; };
+		E55E66EA2BD0ACA500AB4793 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66D92BD0ACA500AB4793 /* DispatchQueue+Alamofire.swift */; };
+		E55E66EB2BD0ACA500AB4793 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66DA2BD0ACA500AB4793 /* SessionDelegate.swift */; };
+		E55E66EC2BD0ACA500AB4793 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66DB2BD0ACA500AB4793 /* ServerTrustPolicy.swift */; };
+		E55E66ED2BD0ACA500AB4793 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66DC2BD0ACA500AB4793 /* ResponseSerialization.swift */; };
+		E55E66EE2BD0ACA500AB4793 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E66DD2BD0ACA500AB4793 /* Notifications.swift */; };
 		F8111E6119A9674D0040E7D1 /* ParameterEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E5C19A9674D0040E7D1 /* ParameterEncodingTests.swift */; };
 		F829C6B81A7A94F100A2CD59 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD67C0B1A5C55C900ED2280 /* Alamofire.framework */; };
 		F829C6BE1A7A950600A2CD59 /* ParameterEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E5C19A9674D0040E7D1 /* ParameterEncodingTests.swift */; };
@@ -501,6 +518,23 @@
 		4CFD6B132201338E00FFB5E3 /* CachedResponseHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedResponseHandlerTests.swift; sourceTree = "<group>"; };
 		4DD67C0B1A5C55C900ED2280 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4202FE01B667AA100C997FB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55E66CD2BD0ACA500AB4793 /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		E55E66CE2BD0ACA500AB4793 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		E55E66CF2BD0ACA500AB4793 /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		E55E66D02BD0ACA500AB4793 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		E55E66D12BD0ACA500AB4793 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		E55E66D22BD0ACA500AB4793 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		E55E66D32BD0ACA500AB4793 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		E55E66D42BD0ACA500AB4793 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		E55E66D52BD0ACA500AB4793 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		E55E66D62BD0ACA500AB4793 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		E55E66D72BD0ACA500AB4793 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E55E66D82BD0ACA500AB4793 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		E55E66D92BD0ACA500AB4793 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		E55E66DA2BD0ACA500AB4793 /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		E55E66DB2BD0ACA500AB4793 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		E55E66DC2BD0ACA500AB4793 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		E55E66DD2BD0ACA500AB4793 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		F8111E3319A95C8B0040E7D1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8111E3719A95C8B0040E7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8111E3E19A95C8B0040E7D1 /* Alamofire iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alamofire iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -882,6 +916,23 @@
 		F8111E3519A95C8B0040E7D1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E55E66CF2BD0ACA500AB4793 /* AFError.swift */,
+				E55E66D82BD0ACA500AB4793 /* Alamofire.swift */,
+				E55E66D92BD0ACA500AB4793 /* DispatchQueue+Alamofire.swift */,
+				E55E66D22BD0ACA500AB4793 /* MultipartFormData.swift */,
+				E55E66D02BD0ACA500AB4793 /* NetworkReachabilityManager.swift */,
+				E55E66DD2BD0ACA500AB4793 /* Notifications.swift */,
+				E55E66D32BD0ACA500AB4793 /* ParameterEncoding.swift */,
+				E55E66D42BD0ACA500AB4793 /* Request.swift */,
+				E55E66D52BD0ACA500AB4793 /* Response.swift */,
+				E55E66DC2BD0ACA500AB4793 /* ResponseSerialization.swift */,
+				E55E66D72BD0ACA500AB4793 /* Result.swift */,
+				E55E66DB2BD0ACA500AB4793 /* ServerTrustPolicy.swift */,
+				E55E66DA2BD0ACA500AB4793 /* SessionDelegate.swift */,
+				E55E66CE2BD0ACA500AB4793 /* SessionManager.swift */,
+				E55E66CD2BD0ACA500AB4793 /* TaskDelegate.swift */,
+				E55E66D62BD0ACA500AB4793 /* Timeline.swift */,
+				E55E66D12BD0ACA500AB4793 /* Validation.swift */,
 				F8111E3619A95C8B0040E7D1 /* Supporting Files */,
 			);
 			path = Source;
@@ -1136,7 +1187,7 @@
 					};
 					F8111E3219A95C8B0040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1530;
 					};
 					F8111E3D19A95C8B0040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
@@ -1575,6 +1626,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55E66E42BD0ACA500AB4793 /* ParameterEncoding.swift in Sources */,
+				E55E66E52BD0ACA500AB4793 /* Request.swift in Sources */,
+				E55E66E32BD0ACA500AB4793 /* MultipartFormData.swift in Sources */,
+				E55E66ED2BD0ACA500AB4793 /* ResponseSerialization.swift in Sources */,
+				E55E66DF2BD0ACA500AB4793 /* SessionManager.swift in Sources */,
+				E55E66E62BD0ACA500AB4793 /* Response.swift in Sources */,
+				E55E66DE2BD0ACA500AB4793 /* TaskDelegate.swift in Sources */,
+				E55E66EA2BD0ACA500AB4793 /* DispatchQueue+Alamofire.swift in Sources */,
+				E55E66E92BD0ACA500AB4793 /* Alamofire.swift in Sources */,
+				E55E66E12BD0ACA500AB4793 /* NetworkReachabilityManager.swift in Sources */,
+				E55E66E22BD0ACA500AB4793 /* Validation.swift in Sources */,
+				E55E66E72BD0ACA500AB4793 /* Timeline.swift in Sources */,
+				E55E66E02BD0ACA500AB4793 /* AFError.swift in Sources */,
+				E55E66EE2BD0ACA500AB4793 /* Notifications.swift in Sources */,
+				E55E66EC2BD0ACA500AB4793 /* ServerTrustPolicy.swift in Sources */,
+				E55E66E82BD0ACA500AB4793 /* Result.swift in Sources */,
+				E55E66EB2BD0ACA500AB4793 /* SessionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2107,7 +2175,9 @@
 		F8111E4719A95C8B0040E7D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2119,6 +2189,8 @@
 				);
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2126,7 +2198,9 @@
 		F8111E4819A95C8B0040E7D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2138,6 +2212,7 @@
 				);
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2145,6 +2220,7 @@
 		F8111E4A19A95C8B0040E7D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
@@ -2164,6 +2240,7 @@
 		F8111E4B19A95C8B0040E7D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
